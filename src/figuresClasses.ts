@@ -47,7 +47,8 @@ export class Circle implements Figure {
   }
 
   getArea() {
-    return Math.floor(Math.PI * this.radius ** 2 * 100) / 100;
+    // eslint-disable-next-line prettier/prettier
+    return Math.floor(Math.PI * (this.radius ** 2) * 100) / 100;
   }
 }
 
